@@ -1,5 +1,5 @@
 from controller import polinomio
-from controller import helper
+from helper import polinomio_helper
 
 still_running = True
 user_decision = -1
@@ -29,7 +29,7 @@ if(user_decision == 1):
     print("Second polynom: ")
     x2 = input()
 
-    arr = helper.validate_arrays(x1, x2)
+    arr = polinomio_helper.validate_arrays(x1, x2)
     result = polinomio.add_polynom(arr)
 
     print(result)
@@ -45,7 +45,7 @@ if(user_decision == 2):
     print("Second polynom: ")
     x2 = input()
 
-    arr = helper.validate_arrays(x1, x2)
+    arr = polinomio_helper.validate_arrays(x1, x2)
     result = polinomio.product_polynom(arr)
 
     print(result)
