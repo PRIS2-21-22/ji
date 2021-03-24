@@ -6,6 +6,9 @@ user_decision = -1
 
 print("Welcom to operator polynomial")
 
+if True:
+    print("Smell")
+
 while(still_running):
     print("Select an option:\n 0: Exit \n 1: Add or Substract two Polynoms\n 2: Product of two Polynoms\n 3: MCD two Polynoms ")
     user_param = input()
