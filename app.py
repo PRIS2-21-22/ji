@@ -4,10 +4,10 @@ from helper import polinomio_helper
 still_running = True
 user_decision = -1
 
-print("Welcom to operator polynomial")
+print("Welcome to operator polynomial")
 
 if True:
-    print("Smell")
+    raise TypeError("LEL")
 
 while(still_running):
     print("Select an option:\n 0: Exit \n 1: Add or Substract two Polynoms\n 2: Product of two Polynoms\n 3: MCD two Polynoms ")
@@ -23,7 +23,6 @@ if(user_decision == 1):
     
     print("Enter values, example: 7x^3 + x^2 = 7 2 0 0")
 
-    #while(same_lenth):
     print("First polinom: ")
     x1 = input()
     print("Second polynom: ")
@@ -39,7 +38,6 @@ if(user_decision == 2):
     
     print("Enter values, example: 7x^3 + x^2 = 7 2 0 0")
 
-    #while(same_lenth):
     print("First polinom: ")
     x1 = input()
     print("Second polynom: ")
