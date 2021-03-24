@@ -13,7 +13,7 @@ while(still_running):
     print("Select an option:\n 0: Exit \n 1: Add or Substract two Polynoms\n 2: Product of two Polynoms\n 3: MCD two Polynoms ")
     user_param = input()
 
-    if(user_param.isdigit()): user_decision = int(user_param) 
+    if(user_param.isdigit()): user_decision = int(user_param)
     else: continue
 
     if(user_decision >= 0 and user_decision <= 4): still_running = False
